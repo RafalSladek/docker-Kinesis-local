@@ -1,6 +1,6 @@
 # Docker kinesis
-[![](https://badge.imagelayers.io/vsouza/kinesis-local:latest.svg)](https://imagelayers.io/?images=vsouza/kinesis-local:latest 'Get your own badge on imagelayers.io')
-[![Docker Pulls](https://img.shields.io/docker/pulls/vsouza/kinesis-local.svg)](https://hub.docker.com/r/vsouza/kinesis-local/)
+[![](https://badge.imagelayers.io/rafalsladek/kinesis-local:latest.svg)](https://imagelayers.io/?images=rafalsladek/kinesis-local:latest 'Get your own badge on imagelayers.io')
+[![Docker Pulls](https://img.shields.io/docker/pulls/rafalsladek/kinesis-local.svg)](https://hub.docker.com/r/rafalsladek/kinesis-local/)
 
 Build for AWS Kinesis local.
 
@@ -19,12 +19,12 @@ You'll create data-processing applications, known as Amazon Kinesis applications
 
 __to start your local Kinesis, run:__
 
-`docker run -d -p 4567:4567  vsouza/kinesis-local --port 4567`
+`docker run -d -p 4567:4567  rafalsladek/kinesis-local --port 4567`
 
 *Feel free to add parameters: ( see Kinesalite [doc](https://github.com/mhart/kinesalite) )* 
 
-`docker run -d -p 4567:4567  vsouza/kinesis-local --port 4567 --createStreaMs 5`
+`docker run -d -p 4567:4567  rafalsladek/kinesis-local --port 4567 --createStreaMs 5`
 
 ## License
 
-[MIT License](http://vsouza.mit-license.org/) © Vinicius Souza
+[MIT License] © Vinicius Souza
