@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Dealer-Lead-Management Team <#AS24-Dealer-Lead-Management-IT-ds@scout24.com>>
+MAINTAINER Rafal Sladek <rafal.sladke@gmail.com>
 
 RUN apt-get update
 RUN apt-get install -y curl
